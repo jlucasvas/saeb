@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: raw
+    database: PROJETO_GCP -- Removi o id do meu projeto pessoal por questoes de segurança
+    schema: raw
+    tables:
+      - name: alunos_9ano_parquet
+      - name: dicionario_parquet
